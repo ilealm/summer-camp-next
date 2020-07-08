@@ -25,8 +25,8 @@ export default function CourseDetail(props) {
 }
 
 export async function getServerSideProps(context) {
+    console.log('entering getServerSideProps')
     const response = await fetch(`https://ileal-summer-camp-api.herokuapp.com/api/v1/courses/${context.params.id}`);
-  
     const course = await response.json();
     console.log('course',course)
     return {
