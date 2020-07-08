@@ -1,5 +1,6 @@
 import Link from 'next/link'
 
+// props here is not receiveing the course.id
 export default function CourseItem(props) {
     return (
         <li key={props.course.id}>
