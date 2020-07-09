@@ -2,4 +2,8 @@
   border: 2px solid red;
   background-color: white;
   text-align: right;
+  li {    
+    display: inline;
+    padding-right: 3em;
+  }
 }
