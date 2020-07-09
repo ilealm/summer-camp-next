@@ -37,7 +37,7 @@ class Home extends React.Component {
         return (
             <div className="container">
                 <Nav />
-                <h1>Courses Home</h1>
+                <h1>Summer Courses</h1>
                 <ul>
                     {this.state.courses.map(course => <CourseItem key={course.id} course={course} />)}
                 </ul>
